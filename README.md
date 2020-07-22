@@ -15,6 +15,9 @@ This must be the project name. Then delete this paragraph.
 
 ## Authoring the website
 
+Every markdown `.md` file is scanned and transformed into a page automatically.
+This includes files in subdirectories. The course homepage is stored in `index.md`.
+
 The website is built using [Jekyll](https://jekyllrb.com) and hosted automatically by GitHub Pages.
 You cannot use a different generator, as Jekyll is the only one supported by GitHub Pages.
 
