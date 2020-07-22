@@ -8,10 +8,13 @@ The website is visible at:
 
   **https://redi-school.github.io/COURSE_NAME**
 
+This website was generated from the [course-template](https://github.com/ReDI-School/course-template).
+You can create your own course website creating a repository out of the same template.
+
 ## Configuring the project
 
 Please replace COURSE_NAME in this file with the name of the course, as configured in GitHub.
-This must be the project name. Then delete this paragraph.
+This must be the GitHub project name and it's used in the final URL. Then delete this paragraph.
 
 ## Authoring the website
 
@@ -75,20 +78,7 @@ You can then visit the website on [localhost:4000](http://localhost:4000).
 
 ## About the ReDI theme
 
-Note this website uses a version of a well-known Jekyll theme, customized with ReDI colors and logos.
-This theme is also hosted on GitHub, in the ReDI account.
+Note this website uses Just The Docs, a well-known Jekyll theme, customized with ReDI colors and logos.
 
-The theme is available at:
-
-  https://github.com/ReDI-School/jekyll-theme-redischool
-
-This course website uses the latest version of `redi-customizations` branch of the theme repository.
-
-You can update, from time to time, the jekyll theme, pulling from the master
-branch of the upstream and merging the new master into the `redi-customizations` branch.
-Make sure this and other course websites still build with the updated theme.
-
-**If you break the theme, every other course website of ReDI School will break
-once a new commit is pushed to their repositories, so handle the theme carefully.**
-
-Please see the README_REDI.md file in the `redi-customizations` branch for more info.
+For instuctions and examples of what the theme can do, and how you can do the
+same in your course pages, please see: https://pmarsceill.github.io/just-the-docs
